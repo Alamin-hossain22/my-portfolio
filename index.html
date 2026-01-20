@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Al-Amin Hossain Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="dark-toggle">
+    <label>
+        <input type="checkbox" id="darkModeToggle">
+        🌙 Dark Mode
+    </label>
+</div>
+
+
+<header>
+    <img src="./ge Jan 13, 2026, 05_04_19 PM.png" alt="My Photo" class="profile-pic">
+    <h1>Hi, I'm Al-Amin Hossain</h1>
+    <p>I am a <span class="typing"></span></p>
+    <a href="#contact" class="btn">Hire Me</a>
+</header>
+
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+<main>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Al-Amin Hossain, learning web development and building professional projects online. I love creating modern websites and growing as a freelancer.</p>
+    </section>
+
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="bar"><div class="progress html"></div></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="bar"><div class="progress css"></div></div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="progress js"></div></div>
+        </div>
+        <div class="skill">
+            <span>Freelancing</span>
+            <div class="bar"><div class="progress free"></div></div>
+        </div>
+    </section>
+
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project" data-title="Project 1" data-desc="Description for Project 1">Project 1</div>
+            <div class="project" data-title="Project 2" data-desc="Description for Project 2">Project 2</div>
+            <div class="project" data-title="Project 3" data-desc="Description for Project 3">Project 3</div>
+            <div class="project" data-title="Project 4" data-desc="Description for Project 4">Project 4</div>
+        </div>
+    </section>
+
+    
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://www.facebook.com/alamin2002.12" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</main>
+
+
+<a href="https://web.whatsapp.com/" class="whatsapp" target="_blank">💬</a>
+
+
+<footer>
+    <p>© 2026 Al-Amin Hossain | All Rights Reserved</p>
+    <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">Fiverr</a>
+        <a href="#">GitHub</a>
+    </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
